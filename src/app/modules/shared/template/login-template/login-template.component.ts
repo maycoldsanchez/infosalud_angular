@@ -1,11 +1,10 @@
 import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
+
 @Component({
-	selector: "app-root",
+	selector: "app-login-template",
 	standalone: true,
 	imports: [RouterOutlet],
-	template: "<router-outlet />",
+	templateUrl: "./login-template.component.html",
 })
-export class AppComponent {
-	title = "infosalud";
-}
+export class LoginTemplateComponent {}
